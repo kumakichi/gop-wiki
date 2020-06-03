@@ -1,1 +1,1 @@
-Welcome to the qlang wiki!
+Welcome to the Go+ wiki!
