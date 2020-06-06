@@ -46,7 +46,7 @@ Compared to corresponding Go code, It is clear and more readable.
 
 And the most interesting thing is, the return error contains the full error stack. So it is very easy to position what the root cause why we got the error.
 
-How these `ErrWrap expressions` works?
+How these `ErrWrap expressions` work?
 
 All `ErrWrap expressions` supposes that `expr` (in most case, it is a function call) has multiple values (val1, val2, ..., valN), and valN can be assigned to an error variable.
 
