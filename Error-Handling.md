@@ -44,7 +44,7 @@ addSafe("10", "efg"): 10
 
 Compared to corresponding Go code, It is clear and more readable.
 
-And the most interesting thing is, the return error contains the full error stack. So it is very easy to position what the root cause why we got the error.
+And the most interesting thing is, the return error contains the full error stack. When we got an error, it is very easy to position what the root cause is.
 
 How do these `ErrWrap expressions` work?
 
