@@ -1,9 +1,9 @@
 We reinvent error handling specification in Go+. We call them `ErrWrap expressions`:
 
 ```go
-expr!
-expr?
-expr?:defval
+expr! // panic if err
+expr? // return if err
+expr?:defval // use defval if err
 ```
 
 How to use them? Here is an example:
