@@ -33,10 +33,10 @@ if _gop_Np1 != nil {
 var1, var2, ..., varN := _gop_1, _gop_2, ..., _gop_N
 ```
 
-## Case3: foo()?defaultValue
+## Case3: foo()?:defaultValue
 
 ```go
-val := foo()?defaultValue
+val := foo()?:defaultValue
 ```
 
 Will be converted into the following code:
