@@ -37,3 +37,13 @@ git tag v0.6.02 v6-alpha-0.2
 git tag v0.6.03 v6-alpha-0.3
 git tag v0.6.10 v6-alpha-1.0
 ```
+
+也就是说，对于 goplus 来说，历史的 qlang 的 release 信息仍然被保留，但是实际上已经是不能正常 work 了的。如果您的项目基于 qlang 老版本，可以移步到：
+
+* https://github.com/xushiwei/qlang/releases
+
+老版本的 qlang 少量维护工作，会在 https://github.com/xushiwei/qlang 进行。
+
+迁移样例 (https://github.com/qiniu/bpl 基于 qlang v1.2.x 版本)：
+
+* https://github.com/qiniu/bpl/tree/v1.1.4
