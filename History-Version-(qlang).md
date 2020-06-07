@@ -38,7 +38,7 @@ git tag v0.6.03 v6-alpha-0.3
 git tag v0.6.10 v6-alpha-1.0
 ```
 
-也就是说，对于 goplus 来说，历史的 qlang 的 release 信息仍然被保留，但是实际上已经是不能正常 work 了的。如果您的项目基于 qlang 老版本，可以移步到：
+也就是说，对于 Go+ 来说，历史的 qlang 的 release 信息仍然被保留，但是实际上已经是不能正常 work 了的。如果您的项目基于 qlang 老版本，可以移步到：
 
 * https://github.com/xushiwei/qlang/releases
 
@@ -47,3 +47,8 @@ git tag v0.6.10 v6-alpha-1.0
 迁移样例 (https://github.com/qiniu/bpl 基于 qlang v1.2.x 版本)：
 
 * https://github.com/qiniu/bpl/tree/v1.1.4
+
+所需要做的工作主要包括：
+
+* 搜索所有的 github.com/qiniu/qlang，将其替换为 github.com/xushiwei/qlang。
+* 修改 go.mod 文件，将依赖的版本升级。对于 qlang v1.2.x，建议升级到 qlang v1.2.2 以上。对于 qlang v1.5.x，建议升级到 qlang v1.5.2 以上。
