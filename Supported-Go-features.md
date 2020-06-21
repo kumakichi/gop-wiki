@@ -7,6 +7,11 @@ s := "Hello"
 
 println(s + " complex")
 println(x - 1, y * z)
+
+a, b := 2, 3
+a++
+b--
+println(a, b)
 ```
 
 ### Condition
@@ -72,14 +77,6 @@ for i = 0; i < len(arr); i++ {
 println("sum(5,7,11,13,17):", sum)
 ```
 
-### Inc/DecStmt
-
-```go
-a, b := 2, 3
-a++
-b--
-println(a, b)
-```
 ### Import go package
 
 ```go
