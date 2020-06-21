@@ -40,6 +40,46 @@ default:
 }
 ```
 
+### For loop
+
+```go
+fns := make([]func() int, 3)
+sum := 0
+for _, x := range [1, 3, 5, 7, 11, 13, 17] {
+    if x > 3 {
+        sum += x
+    }
+}
+println("sum(5,7,11,13,17):", sum)
+
+sum = 0
+for i, x := range [3, 15, 777] {
+    v := x
+    fns[i] = func() int {
+        return v
+    }
+}
+println("values:", fns[0](), fns[1](), fns[2]())
+
+sum = 0
+arr := [1, 3, 5, 7, 11, 13, 17]
+i := 10
+for i = 0; i < len(arr); i++ {
+    if arr[i] > 3 {
+        sum += arr[i]
+    }
+}
+println("sum(5,7,11,13,17):", sum)
+```
+
+### Inc/DecStmt
+
+```go
+a, b := 2, 3
+a++
+b--
+println(a, b)
+```
 ### Import go package
 
 ```go
