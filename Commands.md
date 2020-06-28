@@ -24,6 +24,16 @@ qrun -debug <gopSrcDir|gopSrcFile> # print debug information
 qrun -prof <gopSrcDir|gopSrcFile>  # do profile and generate profile report
 ```
 
+## qfmt
+
+Format Go+ packages.
+
+```bash
+Usage: qfmt [flags] [path ...]
+  -w	write result to (source) file instead of stdout
+```
+
+
 ## qexp
 
 Generate a Go+ package that wraps a Go package automatically.
