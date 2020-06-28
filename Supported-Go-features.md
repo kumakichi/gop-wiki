@@ -75,7 +75,28 @@ for i = 0; i < len(arr); i++ {
     }
 }
 println("sum(5,7,11,13,17):", sum)
+
+sum = 0
+x := 0
+for _, x = range [1, 3, 5, 7, 11, 13, 17] {
+	if x > 3 {
+		sum += x
+	}
+}
+println("x:", x, x == 17)
+println("sum(5,7,11,13,17):", sum)
 ```
+
+### Flow control
+
+* fallthrough
+
+TODO:
+
+* break
+* continue
+* goto
+
 
 ### Import go package
 
