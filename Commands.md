@@ -1,5 +1,7 @@
 ## qrun
 
+Run <gopSrcDir|gopSrcFile> as a Go+ script.
+
 ```bash
 Usage: qrun [-asm -quiet -debug -prof] <gopSrcDir|gopSrcFile>
   -asm
@@ -22,7 +24,17 @@ qrun -debug <gopSrcDir|gopSrcFile> # print debug information
 qrun -prof <gopSrcDir|gopSrcFile>  # do profile and generate profile report
 ```
 
+## qexp
+
+Generate a Go+ package that wraps a Go package automatically.
+
+```bash
+Usage: qexp <goPkgPath>
+```
+
 ## qgo
+
+Convert all Go+ packages under <gopSrcDir> into Go packages, recursively.
 
 ```bash
 Usage: qgo [-test] <gopSrcDir>
