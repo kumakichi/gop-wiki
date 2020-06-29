@@ -4,6 +4,7 @@ The following are the major Go+ contributors:
 - [visualfc](https://github.com/visualfc) (visualfc@goplus.org)
 - [JessonChan](https://github.com/JessonChan) (chendongpo@goplus.org)
 - [qiukeren](https://github.com/qiukeren) (qiukeren@goplus.org)
+- [jiangz222](https://github.com/jiangz222) (jiangzhi@goplus.org)
 
 To get all contributors of the Go+ projects, See:
 - [github.com/qiniu/goplus](https://github.com/qiniu/goplus/graphs/contributors)
