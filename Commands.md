@@ -39,7 +39,9 @@ Usage: qfmt [flags] [path ...]
 Generate a Go+ package that wraps a Go package automatically.
 
 ```bash
-Usage: qexp <goPkgPath>
+Usage: qexp [-outdir <outRootDir>] <goPkgPath>
+  -outdir string
+    	optional set export lib path, default is $GoPlusRoot/lib path.
 ```
 
 ## qgo
