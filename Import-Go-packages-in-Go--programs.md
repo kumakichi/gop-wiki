@@ -6,17 +6,17 @@ The second way is static link it into the `gop` command (In alpha stage, we use 
 
 ```bash
 cd $GoPlusRoot
-qexp <goPkgPathToBeImported>
+qexp <goPkgPathToImport>
 cd lib/default.go
 vim lib/default.go
-# add <goPkgPathToBeImported> and save
+# add <goPkgPathToImport> and save
 go install -v ./...
 ```
 
 Now, you can import it in a Go+ program:
 
 ```go
-import "<goPkgPathToBeImported>"
+import "<goPkgPathToImport>"
 
 ...
 ```
