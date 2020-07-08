@@ -5,9 +5,10 @@ The following are the major Go+ contributors:
 - [JessonChan](https://github.com/JessonChan) (chendongpo@goplus.org)
 - [qiukeren](https://github.com/qiukeren) (qiukeren@goplus.org)
 - [jiangz222](https://github.com/jiangz222) (jiangzhi@goplus.org)
+- [wangyi](https://github.com/wangkuiyi) (wangyi@goplus.org)
 
 To get all contributors of the Go+ projects, See:
-- [github.com/qiniu/goplus](https://github.com/qiniu/goplus/graphs/contributors)
+- [github.com/goplus/gop](https://github.com/goplus/gop/graphs/contributors)
+- [github.com/goplus/www](https://github.com/goplus/www/graphs/contributors)
 - [github.com/qiniu/goplus-dt](https://github.com/qiniu/goplus-dt/graphs/contributors)
-- [github.com/qiniu/goplus-www](https://github.com/qiniu/goplus-www/graphs/contributors)
 - [github.com/qiniu/goplus-play](https://github.com/qiniu/goplus-play/graphs/contributors)
