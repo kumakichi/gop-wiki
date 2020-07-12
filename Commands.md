@@ -2,7 +2,7 @@
 
 ```bash
 gop run         # Run a Go+ program
-gop go          # Convert Go+ packages into Go packages
+gop go [-test]  # Convert Go+ packages into Go packages. If -test specified, it tests related packages.
 gop fmt         # Format Go+ packages
 gop export      # Export Go packages for Go+ programs
 ```
