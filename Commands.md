@@ -38,7 +38,7 @@ gop run -prof <gopSrcDir|gopSrcFile>  # do profile and generate profile report
 Format Go+ packages.
 
 ```bash
-Usage: gop fmt [flags] [path ...]
+Usage: gop fmt [-w] [path ...]
   -w	write result to (source) file instead of stdout
 ```
 
