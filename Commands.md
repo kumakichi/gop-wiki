@@ -7,7 +7,7 @@ gop fmt         # Format Go+ packages
 gop export      # Export Go packages for Go+ programs
 ```
 
-### gop run (ie. qrun)
+#### gop run (ie. qrun)
 
 Run <gopSrcDir|gopSrcFile> as a Go+ script.
 
@@ -33,7 +33,7 @@ gop run -debug <gopSrcDir|gopSrcFile> # print debug information
 gop run -prof <gopSrcDir|gopSrcFile>  # do profile and generate profile report
 ```
 
-### gop fmt (ie. qfmt)
+#### gop fmt (ie. qfmt)
 
 Format Go+ packages.
 
@@ -43,7 +43,7 @@ Usage: gop fmt [flags] [path ...]
 ```
 
 
-### gop export (ie. qexp)
+#### gop export (ie. qexp)
 
 Generate a Go+ package that wraps a Go package automatically.
 
@@ -53,7 +53,7 @@ Usage: gop export [-outdir <outRootDir>] <goPkgPath>
     	optional set export lib path, default is $GoPlusRoot/lib path.
 ```
 
-### gop go (ie. qgo)
+#### gop go (ie. qgo)
 
 Convert all Go+ packages under <gopSrcDir> into Go packages, recursively.
 
