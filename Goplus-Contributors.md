@@ -11,5 +11,7 @@ The following are the major Go+ contributors:
 To get all contributors of the Go+ projects, See:
 - [github.com/goplus/gop](https://github.com/goplus/gop/graphs/contributors)
 - [github.com/goplus/www](https://github.com/goplus/www/graphs/contributors)
+- [github.com/goplusjs/play](https://github.com/goplusjs/play/graphs/contributors)
+- [github.com/gopcode/vscode-goplus](https://github.com/gopcode/vscode-goplus/graphs/contributors)
+- [github.com/numgoplus/ng](https://github.com/numgoplus/ng/graphs/contributors)
 - [github.com/qiniu/goplus-dt](https://github.com/qiniu/goplus-dt/graphs/contributors)
-- [github.com/qiniu/goplus-play](https://github.com/qiniu/goplus-play/graphs/contributors)
