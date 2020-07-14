@@ -6,6 +6,7 @@ The following are the major Go+ contributors:
 - [qiukeren](https://github.com/qiukeren) (qiukeren@goplus.org)
 - [jiangz222](https://github.com/jiangz222) (jiangzhi@goplus.org)
 - [wangyi](https://github.com/wangkuiyi) (wangyi@goplus.org)
+- [go-wyvern](https://github.com/go-wyvern) (wuxinyi@goplus.org)
 
 To get all contributors of the Go+ projects, See:
 - [github.com/goplus/gop](https://github.com/goplus/gop/graphs/contributors)
