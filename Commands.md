@@ -10,7 +10,7 @@ gop export      # Export Go packages for Go+ programs
 
 #### gop run (ie. qrun)
 
-Run <gopSrcDir|gopSrcFile> as a Go+ script.
+Run &lt;gopSrcDir|gopSrcFile&gt; as a Go+ script.
 
 ```bash
 Usage: gop run [-asm -quiet -debug -prof] <gopSrcDir|gopSrcFile>
@@ -64,7 +64,7 @@ Usage: gop export [-outdir <outRootDir>] <goPkgPath>
 
 #### gop go (ie. qgo)
 
-Convert all Go+ packages under <gopSrcDir> into Go packages, recursively.
+Convert all Go+ packages under &lt;gopSrcDir&gt; into Go packages, recursively.
 
 ```bash
 Usage: gop go [-test] <gopSrcDir>
